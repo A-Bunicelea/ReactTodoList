@@ -1,0 +1,105 @@
+/* TODO FORM */
+.inputField.inputField {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 70%;
+  background-color: white;
+}
+
+ .timeField.timeField {
+  width: 45%;
+} 
+
+.formBox {
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+.formContainer {
+  background-color: whitesmoke;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+  border-radius: 10px;
+}
+
+.boxContainer {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn.btn {
+  background-color: #408697;
+  color: white;
+  margin-top: 10px;
+  margin-right: 20px;
+  border: none;
+}
+
+.btnClose.btnClose {
+  color: white;
+  background-color: orangered;
+  border: none;
+}
+
+.buttonsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  min-width: 40%;
+}
+
+.errorMsg {
+  color: red;
+  display: block;
+  width: 70%;
+}
+
+/* TASK CONTAINER */
+.box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #8d8c8a;
+  font-size: 1rem;
+  margin: 0 auto;
+}
+
+/* TODO LIST */
+.listContainer {
+  max-width: 60%;
+  margin: 30px auto;
+  padding: 20px 0;
+  background-color: whitesmoke;
+  border-radius: 10px;
+}
+
+.listContainerTitle {
+  color: #777;
+  margin: 0 auto;
+  padding-left: 25px;
+  text-align: center;
+}
+
+.title {
+  color: #777;
+}
+
+/* NAVBAR */
+.navbarContainer {
+  margin: 0 auto;
+  padding: 30px 0;
+  text-align: right;
+}
+
+.navbarLink {
+  text-decoration: none;
+  color: #408697;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-right: 20px;
+}
